@@ -1,0 +1,40 @@
+.card-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 800px;
+  padding: 10px;
+}
+.bg-container {
+  background-image: linear-gradient(to right, #ebe134, #34ebb7);
+  background-size: cover;
+  height: 120vh;
+}
+
+.cards-container {
+  width: 800px;
+}
+.right-content {
+  width: 50%;
+  text-align: center;
+  color: black;
+  position: fixed;
+  top: 50px;
+  right: 10px;
+}
+.btn-group {
+  display: flex;
+}
+.btn-group button {
+  outline: none;
+  border: none;
+  width: 150px;
+  padding: 0.3rem 0;
+  margin: 1rem;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  background-image: linear-gradient(to top, #0398fc, #be03fc);
+  border-radius: 8px;
+  cursor: pointer;
+}

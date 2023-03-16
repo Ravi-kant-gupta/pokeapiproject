@@ -1,0 +1,41 @@
+.right-content img {
+  margin: 1.5rem;
+  height: 160px;
+}
+.poke-heading {
+  font-size: large;
+}
+
+.abilities {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.abilities .group {
+  background-color: #b74555;
+  color: white;
+  font-size: 12px;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 1rem;
+  height: 60px;
+}
+.base-stat {
+  margin-top: 1rem;
+}
+.weight {
+  font-weight: bold;
+  font-size: 18px;
+}
+.bg-of-pokeinfo {
+  background-image: radial-gradient(#03fcd3, #03fc13);
+  width: 80%;
+  margin-left: 20%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
